@@ -1,0 +1,12 @@
+<div data-ng-controller=”ParentController as theParent”>
+    <div>
+        <label>Parent Controller</label>
+        <input type="text" data-ng-model="firstName" />
+        <h3>{{ firstName }}</h3>
+    </div>
+    <div data-ng-controller="ChildController as theChild">
+        <label>Child Controller</label>
+        <input type="text" data-ng-model="firstName" />
+        <h3>{{ firstName }}</h3>
+    </div>
+</div>
